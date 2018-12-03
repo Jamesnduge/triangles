@@ -23,3 +23,11 @@ p{
  float: right;
  font-size: 25px;
 }
+footer{
+ margin-bottom: 0px;
+ padding-top: 500px;
+}
+.bottom{
+  color: hotpink;
+  border: 3px white;
+}
