@@ -13,16 +13,16 @@ checker.push(parseFloat(prompt("Enter side A: ")));
             alert("Please enter a number in the field");
         }else{
         if((checker[0]+checker[1])<=checker[2] || (checker[1]+checker[2])<=checker[0] || (checker[0]+checker[2])<=checker[1]){
-            alert("Not a Triangle");
+            alert("Your shape is Not a Triangle");
         }
         else if(checker[0]===checker[1] && checker[0]===checker[2] && checker[1]===checker[2]){
-            alert("Equilateral");
+            alert("Your shape is Equilateral");
         }
         else if(checker[0]===checker[1] || checker[1]===checker[2] || checker[0]===checker[2]){
-            alert("Isosceles");
+            alert("Your shape is Isosceles");
         }
         else if((checker[0]+checker[1])>=checker[2] || (checker[1]+checker[2])>=checker[0] || (checker[0]+checker[2])>=checker[1]){
-            alert("Scalene");
+            alert("Your shape is Scalene");
         }
         else{
             alert("Value entered must be a number");
