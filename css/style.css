@@ -4,15 +4,22 @@ body{
  background-size: cover;
 }
 .triangle{
- font-size: 50px;
+ font-size: 40px;
  float: left;
- margin-right: 400px;
+ margin-left: 100px;
  background-color: teal;
 }
 h4{
  color: white;
  font-size: 18px;
 }
+h3{
+ color: yellowgreen;
+}
 p{
- color: salmon;
+ color: white;
+}
+.explain{
+ float: right;
+ font-size: 25px;
 }
