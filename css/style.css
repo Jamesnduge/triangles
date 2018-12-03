@@ -5,11 +5,14 @@ body{
 }
 .triangle{
  font-size: 50px;
- float: right;
- margin-right: 350px;
+ float: left;
+ margin-right: 400px;
  background-color: teal;
 }
 h4{
  color: white;
-
+ font-size: 18px;
+}
+p{
+ color: salmon;
 }
