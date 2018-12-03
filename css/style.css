@@ -3,3 +3,13 @@ body{
  background-repeat: no-repeat;
  background-size: cover;
 }
+.triangle{
+ font-size: 50px;
+ float: right;
+ margin-right: 350px;
+ background-color: teal;
+}
+h4{
+ color: white;
+
+}
