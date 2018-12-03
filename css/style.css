@@ -29,5 +29,8 @@ footer{
 }
 .bottom{
   color: hotpink;
-  border: 3px white;
+  background-color: black;
+  font-size: 25px;
+  margin-right: 1050px;
+  padding-left: 27px;
 }
