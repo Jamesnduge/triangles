@@ -2,22 +2,34 @@
   <html lang="en">
     <head>
       <title>Triangle Tracker</title>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
       <link href="css/style.css" rel="stylesheet" type="text/css">
       <script src="js/script.js" type="text/javascript">
 
       </script>
     </head>
     <body>
-      <h4>Welcome to <em>Triangle Tracker!</em> You will be required to have <em>three</em> measurements of the shape in numeric value to get a correct response.</h4>
-        <p>Click the button below to begin tracking!</p>
-      <input type="button" class="triangle" value="Triangle Type" onclick="answer()">
-      <div class="explain">
-        <h3>Equilateral Triangles</h3>
-          <p>An  equilateral triangle is a triangle whose three sides all have exactly the same length.</p>
-        <h3>Isosceles Triangles</h3>
-          <p>An isosceles triangle is a triangle that has (at least) two equal side lengths.</p>
-        <h3>Scalene Triangles</h3>
-          <p>A scalene triangle is a triangle tha meets minimum triangle's criteria that is; No side can be equal or greater than the sum of the other two sides in which case, the shape is not a triangle.</p>
+      <div class="container">
+        <h4>Welcome to <em>Triangle Tracker!</em> You will be required to have <em>three</em> measurements of the shape in numeric value to get a correct response.</h4>
+          <p>Click the button below to begin tracking!</p>
+        <input type="button" class="triangle" value="Triangle Type" onclick="answer()">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Equilateral Triangles</h3>
+                <p>An  equilateral triangle is a triangle whose three sides all have exactly the same length.</p>
+                <span class="pic1"><img src="equ.jpg"></span>
+            </div>
+            <div class="col-md-4">
+              <h3>Isosceles Triangles</h3>
+                <p>An isosceles triangle is a triangle that has (at least) two equal side lengths.</p>
+                <span class="pic2"><img src="iso.jpg"></span>
+            </div>
+            <div class="col-md-4">
+              <h3>Scalene Triangles</h3>
+                <p>A scalene triangle is a triangle tha meets minimum triangle's criteria that is; No side can be equal or greater than the sum of the other two sides in which case, the shape is not a triangle.</p>
+                <span class="pic3"><img src="equ.jpg"></span>
+            </div>
+        </div>
       </div>
     </body>
     <footer>
