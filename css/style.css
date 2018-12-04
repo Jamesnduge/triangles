@@ -11,7 +11,8 @@ body{
 }
 h4{
  color: white;
- font-size: 18px;
+ font-size: 30px;
+ text-align: center;
 }
 h3{
  color: yellowgreen;
@@ -33,4 +34,9 @@ footer{
   font-size: 25px;
   margin-right: 1050px;
   padding-left: 27px;
+  margin-top: 200px;
+}
+.pic2{
+ margin-top: 30px;
+ border-top: 40px;
 }
