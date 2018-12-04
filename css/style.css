@@ -12,6 +12,7 @@ body{
 h4{
  color: white;
  font-size: 30px;
+ text-align: center;
 }
 h3{
  color: yellowgreen;
@@ -37,4 +38,5 @@ footer{
 }
 .pic2{
  margin-top: 30px;
+ border-top: 40px;
 }
